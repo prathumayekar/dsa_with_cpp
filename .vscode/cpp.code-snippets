@@ -15,7 +15,6 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-
 	"Bare minimum cpp program": {
 		"prefix": "main2s",
 		"body": [
@@ -28,5 +27,15 @@
 			"}"
 		],
 		"description": "Cpp program"
-   },
+	},
+	"for loop": {
+		"prefix": "forc",
+		"body": [
+			"for(int i = 0; i < n; i++)",
+			"{",
+			"\t$1",
+			"}"
+		],
+		"description": "custom for loop"
+	},
 }
