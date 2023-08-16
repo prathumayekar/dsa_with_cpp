@@ -44,7 +44,7 @@ int main()
         cout<<*it<<" ";
     }
 
-    cout<<endl;
+    // cout<<endl;
 
 
     return 0;

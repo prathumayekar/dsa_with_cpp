@@ -10,6 +10,7 @@ int main()
     s.push("love");
     s.push("babbar");
     s.push("kumar");
+    
 
     cout<<"Top Element--> "<<s.top()<<endl;
 

@@ -12,7 +12,7 @@ char toLowerCase(char ch)
         char temp = ch - 'A' + 'a';
         return temp;
     } 
-}
+}   
 
 bool checkPalindrome(char a[], int n)
 {
