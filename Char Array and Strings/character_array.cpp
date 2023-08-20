@@ -11,8 +11,8 @@ char toLowerCase(char ch)
     {
         char temp = ch - 'A' + 'a';
         return temp;
-    } 
-}   
+    }
+}
 
 bool checkPalindrome(char a[], int n)
 {
@@ -70,7 +70,7 @@ char getMaxOccCharacter(string s)
         arr[number]++;
     }
 
-    //find maximum occ character
+    // find maximum occ character
     int maxi = -1, ans = 0;
 
     for (int i = 0; i < 26; i++)
