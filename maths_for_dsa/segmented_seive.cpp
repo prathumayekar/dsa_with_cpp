@@ -46,7 +46,7 @@ void segmentedSieve(int low, int high)
         for (int j = max(firstMultiple, pr * pr); j <= high; j = j + pr)
         {
             dummy[j - low] = 0;
-        }
+        }  
     }
 
     for (int i = low; i <= high; i++)
