@@ -7,8 +7,6 @@ void print(int n)
     if (n == 0)
         return;
 
-    
-
     // Recursive relation
     print(n - 1);
 

@@ -13,10 +13,10 @@ void reachHome(int src, int dest)
     }
 
     // processing - ek step aage badhjao
-    src++;
+    src++;   
 
     // recursive call
-    reachHome(src, dest);
+    reachHome(src, dest); 
 }
 
 int main()
