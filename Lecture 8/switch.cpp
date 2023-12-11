@@ -7,12 +7,12 @@ int main()
     int num = 1;
 
     cout << endl;
-    switch (2*num)
+    switch (2 * num)
     {
     case 2:
         cout << "First" << endl;
         cout << " First again " << endl;
-        break;
+        // break;
 
     case '1':
         switch (num)

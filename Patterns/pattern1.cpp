@@ -18,7 +18,7 @@ int main()
             j = j + 1;
         }
 
-        cout<<endl;
+        cout << endl;
 
         i = i + 1;
     }

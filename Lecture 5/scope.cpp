@@ -18,7 +18,7 @@ int main()
     cout << b << endl;
 
     int i = 8;
-    
+
     for (int i = 0; i < 8; i++)
     {
         cout << " HI " << endl;

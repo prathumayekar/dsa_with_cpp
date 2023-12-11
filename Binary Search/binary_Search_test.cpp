@@ -33,7 +33,7 @@ int binarySearch(int arr[], int size, int key)
 int main()
 {
     int arr[8] = {1, 2, 3, 4, 5, 6, 7, 8};
-    int index = binarySearch(arr, 8, 0);
+    int index = binarySearch(arr, 8, 8);
     cout << index << endl;
     return 0;
 }

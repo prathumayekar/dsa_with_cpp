@@ -6,7 +6,7 @@ int main()
     int amount;
     cout<<"Enter the total amount : ";
     cin>>amount;
-    int x,y,z,a;
+    int x;
     int num = 1;
 
     switch(num)

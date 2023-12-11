@@ -31,7 +31,7 @@ int main()
     // int ans = power();
     // cout << " answer is " << ans << endl;
 
-    // ans = power();
+    // ans = power(); 
     // cout << " answer is " << ans << endl;
 
     // ans = power();

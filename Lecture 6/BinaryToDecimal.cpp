@@ -11,7 +11,7 @@ int main()
 
     while (n != 0)
     {
-        
+
         int digit = n % 10;
 
         if (digit == 1)

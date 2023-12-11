@@ -14,6 +14,7 @@ int main()
         // cout << i << " ";
         sum = sum + i;
         i = i + 2;
+        cout<<"pratham"<<endl;
     }
 
     cout<< "value of sum is "<<sum<<endl;

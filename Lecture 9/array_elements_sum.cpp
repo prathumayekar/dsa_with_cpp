@@ -26,6 +26,5 @@ int main()
     cout << "Calculating the sum of elements of an array.... " << endl;
     cout << "The sum is : " << arraySum(arr, size) << endl;
 
-
     return 0;
 }
