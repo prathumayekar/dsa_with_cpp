@@ -37,5 +37,24 @@ int main()
 
     cout << "after erase " << d.size() << endl;
 
+    d.push_back(4);
+    d.push_back(5);
+    d.push_back(6);
+
+    for (int i : d)
+    {
+        cout << i << " ";
+    }
+
+    cout<<endl;
+
+    deque<int>::iterator it = d.begin();
+
+    cout << *(it) << endl;
+
+    it++;
+
+    cout << *(it) << endl;
+
     return 0;
 }

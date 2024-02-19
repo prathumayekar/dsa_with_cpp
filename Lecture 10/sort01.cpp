@@ -34,6 +34,8 @@ void sortOne(int arr[], int n)
             left++;
             right--;
         }
+
+        // swap(arr[left++], arr[right--]);
     }
 }
 
@@ -41,7 +43,7 @@ int main()
 {
     int arr[8] = {1, 1, 0, 0, 0, 0, 1, 0};
 
-    sortOne(arr, 8);
-    printArray(arr, 8);
+    sortOne(arr, 6);
+    printArray(arr, 6);
     return 0;
 }

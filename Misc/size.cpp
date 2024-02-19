@@ -1,4 +1,5 @@
-#include<iostream>
+#include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -6,10 +7,20 @@ int main()
     int a = 3;
     long int b = 5;
     long long int c = 8;
+    float num = 1.123456789123456;
+    double num1 = 1.123456789123456;
 
-    cout<<sizeof(a)<<endl;
-    cout<<sizeof(b)<<endl;
-    cout<<sizeof(c)<<endl;
-    
+    auto p = 9;
+
+    cout << sizeof(a) << endl;
+    cout << sizeof(b) << endl;
+    cout << sizeof(c) << endl;
+    cout << sizeof(num) << endl;
+    cout << sizeof(num1) << endl;
+    cout << sizeof(p) << endl;
+
+    cout << setprecision(15) << num << endl;
+    cout << setprecision(15) << num1 << endl;
+
     return 0;
 }

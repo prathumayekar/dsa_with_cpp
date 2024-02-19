@@ -15,7 +15,5 @@ int main()
             exit(0); // This function terminates the program here itself and returns 0
         }
     }
-
-    
     return 0;
 }

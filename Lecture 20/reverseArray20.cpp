@@ -26,6 +26,11 @@ void print(vector<int> v)
     cout << endl;
 }
 
+void update(vector<int> v)
+{
+    v[2] = 120;
+}
+
 int main()
 {
     vector<int> v;
@@ -40,6 +45,10 @@ int main()
 
     cout << "Printing reverse Array" << endl;
     print(ans);
+
+    update(v);
+
+    print(v);
 
     return 0;
 }

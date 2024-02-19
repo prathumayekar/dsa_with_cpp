@@ -17,6 +17,7 @@ int main()
 
     l.push_back(1);
     l.push_front(2);
+    l.push_front(3);
 
     for(int i : l)
     {
@@ -26,6 +27,17 @@ int main()
 
     l.erase(l.begin());
     cout<<"after erase"<<endl;
+
+    list<int>:: iterator itr = l.begin();
+    itr++;
+
+    while(itr != l.end())
+    {
+        cout<<*(itr)<<" ";
+        itr++;
+    }
+    cout<<endl;
+    
 
     for(int i : l)
     {

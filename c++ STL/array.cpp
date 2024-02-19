@@ -8,6 +8,8 @@ int main()
     // normal array
     int basic[3] = {1, 2, 3};
 
+    basic[4] = 5;
+
     // STL array
     array<int, 4> a = {1, 2, 3, 4};
 

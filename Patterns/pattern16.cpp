@@ -10,7 +10,6 @@ int main()
 
     while (row <= n)
     {
-        
         // 1st triangle print kara
         int col = 1;
         while (col<=n-row+1)
