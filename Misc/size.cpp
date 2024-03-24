@@ -22,5 +22,11 @@ int main()
     cout << setprecision(15) << num << endl;
     cout << setprecision(15) << num1 << endl;
 
+    int var = 10;
+    int var2 = 4;
+
+    float f = float(var) / var2; //Explicit Typecasting
+    cout<<f<<endl;
+
     return 0;
 }

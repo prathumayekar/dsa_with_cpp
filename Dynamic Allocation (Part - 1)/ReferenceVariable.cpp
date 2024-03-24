@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Bad practice
 int &func(int a)
 {
     int num = a;
@@ -8,6 +9,7 @@ int &func(int a)
     return ans;
 }
 
+// Bad practice
 int *fun(int n)
 {
     int *ptr = &n;

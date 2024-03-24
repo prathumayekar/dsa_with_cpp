@@ -26,7 +26,7 @@ int main()
 
     // cout << str3<<endl;
 
-    // cout<<str4;
+    // cout << str4 << endl;
     // cout<<str;
 
     // str3.insert(7, "good ");
@@ -42,24 +42,20 @@ int main()
 
     // cout<<str3.find("gamer")<<endl;
 
-
     // cout<<str4<<endl;
 
     // str3.insert(1, "@40");
     // cout<<str3.length()<<endl;
     // cout<<str3<<endl;
 
-    for(int i = 0; i < str3.length(); i++)
-	{
-		if(str3[i] == ' ')
-		{
-			str3.replace(i, 1, "@40");
-
-		}
-		
-	}
-    cout<<str3;
-    
+    for (int i = 0; i < str3.length(); i++)
+    {
+        if (str3[i] == ' ')
+        {
+            str3.replace(i, 1, "@40");
+        }
+    }
+    cout << str3;
 
     return 0;
 }
